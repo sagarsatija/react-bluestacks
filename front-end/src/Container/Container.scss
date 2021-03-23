@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    .header {
+        height: 90px;
+        background:#1F2640;
+        padding: 0 120px;
+        display: flex;
+        align-items: center;
+        .headerText {
+            color: white;
+            font-size: 30px;
+        }
+    }
+    .body-container {
+        padding: 20px 120px;
+        display: flex;
+        flex-direction: column;
+        .body-header {
+            font-size: 40px;
+            font-weight: bold;
+            color:#1F2640;
+        }
+        .main-container {
+            padding-top: 20px;
+        }
+
+    }
+}
